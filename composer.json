@@ -1,0 +1,20 @@
+{
+    "name": "taoran/php-example",
+    "autoload": {
+        "psr-4": {
+            "Taoran\\PhpExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "taoran",
+            "email": "taoran0796@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "psr/container": "^2.0",
+        "hyperf/di": "^2.2",
+        "hyperf/contract": "^2.2"
+    }
+}
